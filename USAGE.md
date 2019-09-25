@@ -18,7 +18,7 @@ git clone https://github.com/NeuralVFX/unity-head-pose-example.git
 - Copy `.dll` files from `OpenCV` `Bin` folder into `unity-head-pose-example\Assets\Plugins`
 - Copy `head-pose-opencv.dll` into  `unity-head-pose-example\Assets\Plugins`
 #### Models
-- Download the `SSD` and `Landmark Detection` models and place into `unity-head-pose-examle`
+- Download the `SSD` and `Landmark Detection` models and place into `unity-head-pose-example`
 ##### SSD
 [deploy.prototxt](https://github.com/spmallick/learnopencv/blob/master/FaceDetectionComparison/models/deploy.prototxt)
 
