@@ -20,7 +20,7 @@ git clone https://github.com/NeuralVFX/unity-head-pose-example.git
 #### Models
 - Download the `SSD` and `Landmark Detection` models and place into `unity-head-pose-example`
 
-| **Model**                    | **Link **                                  |
+| **Model**                    | **Link**                                  |
 |------------------------------|--------------------------------------------|
 | `Face Detection SSD Meta`                   | [deploy.prototxt](https://github.com/spmallick/learnopencv/blob/master/FaceDetectionComparison/models/deploy.prototxt) |
 | `Face Detection SSD Model`                  |    [res10_300x300_ssd_iter_140000_fp16.caffemodel](https://github.com/spmallick/learnopencv/raw/master/FaceDetectionComparison/models/res10_300x300_ssd_iter_140000_fp16.caffemodel)                                        |
