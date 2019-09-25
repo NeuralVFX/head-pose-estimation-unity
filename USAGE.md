@@ -4,12 +4,14 @@
 - Download and compile `OpenCV 4.1.1` from https://opencv.org/
 - Download and compile `Dlib 19.17` from http://dlib.net/
 
+- Follow the directions at https://github.com/NeuralVFX/realtime-head-pose-open-cv/ to compile `head-pose-opencv.dll` (Using the included might not work on all systems)
+```
+
 - Clone this repo:
 
 ```bash
 git clone https://github.com/NeuralVFX/unity-head-pose-example.git
 ```
-
 
 ## Setting Up Plugin
 
@@ -22,9 +24,9 @@ git clone https://github.com/NeuralVFX/unity-head-pose-example.git
 - [res10_300x300_ssd_iter_140000_fp16.caffemodel](https://github.com/spmallick/learnopencv/raw/master/FaceDetectionComparison/models/res10_300x300_ssd_iter_140000_fp16.caffemodel)
 - [shape_predictor_68_face_landmarks.dat](https://github.com/italojs/facial-landmarks-recognition-/blob/master/shape_predictor_68_face_landmarks.dat)
 
-## Compile
-- Compile in release mode
-- `head-pose-opencv.dll` will be created in the `\x64\Release` directory
+## Use
+- Open `unity-head-pose-example\Assets\Scenes\SampleScene.unity`
+- Press Play, the scripts should compile and you shoule see a Bull on your face
 
 ## Use
 - `head-pose-opencv.dll` and OpenCV and Dlib `.dll` files must be added to Unity Plugins directory
