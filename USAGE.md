@@ -31,4 +31,12 @@ git clone https://github.com/NeuralVFX/unity-head-pose-example.git
 - Within the project, open the scene `\Assets\Scenes\SampleScene.unity`
 - Press Play, and the Bull should snap to your face
 
+## Included Scripts Usage
+
+
+| **Component Script**                    | **Purpose**                                  |
+|------------------------------|--------------------------------------------|
+| `OpenCVFaceDetection.cs`     |  Initiates OpenCV, performs facial detection and storage of frame.|
+| `GetFrame.cs`                |  Retrieves the latest frame and assignes it as texture to object.|
+| `Get Head Transform.cs`      |  Retrieves the face transform, and applies to object.             |
 
