@@ -37,6 +37,6 @@ git clone https://github.com/NeuralVFX/unity-head-pose-example.git
 | **Component Script**         | **Purpose**                                                        |  **Usage**             |
 |------------------------------|--------------------------------------------------------------------|-------------------------|
 | `OpenCVFaceDetection.cs`     |  Initiates OpenCV, performs facial detection and storage of frame. |   Add to Camera, Set `Cam Id` depending on which Camera you want to use. Set `Detect Ratio` to change fidelity of landmark detection.                      |
-| `GetFrame.cs`                |  Retrieves the latest frame and assignes it as texture to object.  |   Add to background plane geo.                      |
+| `GetFrame.cs`                |  Retrieves the latest frame and assigns it as texture to object.  |   Add to background plane geo.                      |
 | `Get Head Transform.cs`      |  Retrieves the latest face transform, and applies to object.       |   Add to face object.                   |
 
