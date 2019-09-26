@@ -9,7 +9,7 @@ internal static class OpenCVInterop
 {
 
     [DllImport("head-pose-opencv")]
-    internal static extern int Init(ref int outCameraWidth, ref int outCameraHeight);
+    internal static extern int Init(ref int outCameraWidth, ref int outCameraHeight, int ratio);
 
     [DllImport("head-pose-opencv")]
     internal static extern int Close();
@@ -36,6 +36,8 @@ public class OpenCVFaceDetection : MonoBehaviour
     public static Vector3 rot_u { get; private set; }
     public static Vector3 rot_f { get; private set; }
 
+    public int detectRatio = 1;
+
     private bool _ready = false;
     private TransformData faces;
 
@@ -43,7 +45,7 @@ public class OpenCVFaceDetection : MonoBehaviour
     {
         // Initiate Open CV Wrapper
         int cam_width = 1920, cam_height = 1080;
-        int result = OpenCVInterop.Init(ref cam_width, ref cam_height);
+        int result = OpenCVInterop.Init(ref cam_width, ref cam_height, detectRatio);
 
         // Setup camera
         float vfov = 2.0f * Mathf.Atan(0.5f * cam_height / cam_width) * Mathf.Rad2Deg;
