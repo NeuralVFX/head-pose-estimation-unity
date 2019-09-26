@@ -1,7 +1,7 @@
 
 ## Getting Started
 - Install Unity (using 2018.2.8f1)
-- Download and compile `OpenCV 4.1.1` from https://opencv.org/
+- Download and compile `OpenCV 4.1.2` from https://opencv.org/
 - Download and compile `Dlib 19.17` from http://dlib.net/
 
 - Follow the directions at https://github.com/NeuralVFX/realtime-head-pose-open-cv/ to compile `head-pose-opencv.dll` (Using the included might not work on all systems)
