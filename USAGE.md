@@ -27,7 +27,8 @@ git clone https://github.com/NeuralVFX/unity-head-pose-example.git
 | `Landmark Detection Model`     |      [shape_predictor_68_face_landmarks.dat](https://github.com/italojs/facial-landmarks-recognition-/blob/master/shape_predictor_68_face_landmarks.dat)|
 
 ## Use
-- Open `unity-head-pose-example\Assets\Scenes\SampleScene.unity`
-- Press Play, the scripts should compile and you shoule see a Bull on your face
+- Open `unity-head-pose-example` as a Unity project
+- Within the project, open the scene `\Assets\Scenes\SampleScene.unity`
+- Press Play, and the Bull should snap to your face
 
 
