@@ -26,7 +26,7 @@ git clone https://github.com/NeuralVFX/unity-head-pose-example.git
 | `Face Detection SSD Model`                  |    [res10_300x300_ssd_iter_140000_fp16.caffemodel](https://github.com/spmallick/learnopencv/raw/master/FaceDetectionComparison/models/res10_300x300_ssd_iter_140000_fp16.caffemodel)                                        |
 | `Landmark Detection Model`     |      [shape_predictor_68_face_landmarks.dat](https://github.com/italojs/facial-landmarks-recognition-/blob/master/shape_predictor_68_face_landmarks.dat)|
 
-## Use
+## Usage
 - Open `unity-head-pose-example` as a Unity project
 - Within the project, open the scene `\Assets\Scenes\SampleScene.unity`
 - Press Play, and the Bull should snap to your face
