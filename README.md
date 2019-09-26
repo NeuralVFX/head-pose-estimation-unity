@@ -1,7 +1,7 @@
 ![](https://github.com/NeuralVFX/realtime-head-pose-open-cv/blob/master/examples/unity_example.gif)
 # Unity-Head-Pose-Example
 
-This is a realtime augmented reality face tracker for Unity. It utilizes a DLL from my [Realtime-Head-Pose-Open-cv](https://github.com/NeuralVFX/realtime-head-pose-open-cv) project to find and estimate the 3d pose of the largest head in frame.
+This is a realtime augmented reality face tracker for Unity. It utilizes a DLL from my [Realtime-Head-Pose-Open-CV](https://github.com/NeuralVFX/realtime-head-pose-open-cv) project to find and estimate the 3d pose of the largest head in frame.
 
 ## Notes
 
